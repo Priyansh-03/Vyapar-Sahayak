@@ -15,7 +15,7 @@
 ## ✨ Key Features
 
 *   **🏠 Dashboard Overview:** Quick stats on total products, low stock items, today's sales, and bills generated.
-    *   `[Illustrative GIF: Dashboard showing animated stats and quick action cards]`
+    
 *   **📦 Product Management:**
     *   Easily add, edit, and delete products.
     *   Categorize items and manage prices.
