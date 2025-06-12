@@ -1,0 +1,178 @@
+
+[
+  {
+    "id": "cmd_nav_home",
+    "action_type": "navigation",
+    "en": ["Go to home", "Open home page", "Show home screen"],
+    "hi-IN": ["Home pe jao", "Home page kholo", "Home screen dikhao"],
+    "hi": ["होम पेज पर जाओ", "होम पेज खोलो", "होम स्क्रीन दिखाओ"]
+  },
+  {
+    "id": "cmd_nav_products",
+    "action_type": "navigation",
+    "en": ["Open products", "Show products page", "View all products"],
+    "hi-IN": ["Products kholo", "Samaan page dikhao", "Samaan dekho"],
+    "hi": ["सामान पेज खोलो", "प्रोडक्ट्स दिखाओ", "सभी सामान देखें"]
+  },
+  {
+    "id": "cmd_nav_bill",
+    "action_type": "navigation",
+    "en": ["Go to generate bill", "Open billing page", "Create new bill"],
+    "hi-IN": ["Bill banane wale page pe jao", "Billing page kholo", "Naya bill banao"],
+    "hi": ["बिल बनाएं पेज पर जाओ", "बिलिंग पेज खोलो", "नया बिल तैयार करो"]
+  },
+  {
+    "id": "cmd_nav_ledger",
+    "action_type": "navigation",
+    "en": ["Open ledger book", "Show udhaar khata", "View credits/debts"],
+    "hi-IN": ["Udhaar khata kholo", "Ledger book dikhao"],
+    "hi": ["उधार खाता खोलो", "उधार खाता दिखाओ"]
+  },
+  {
+    "id": "cmd_nav_settings",
+    "action_type": "navigation",
+    "en": ["Show settings", "Open settings page"],
+    "hi-IN": ["Settings dikhao", "Settings kholo"],
+    "hi": ["सेटिंग्स दिखाओ", "सेटिंग्स खोलो"]
+  },
+  {
+    "id": "cmd_prod_add_new",
+    "action_type": "product_management",
+    "en": ["Add new product", "Create a product"],
+    "hi-IN": ["Naya product add karo", "Naya samaan jodo"],
+    "hi": ["नया सामान जोड़ें", "एक नया उत्पाद बनाएं"]
+  },
+  {
+    "id": "cmd_prod_search_item",
+    "action_type": "product_management",
+    "en": ["Search for Parle-G", "Find Parle-G"],
+    "hi-IN": ["Parle-G search karo", "Parle-G dhoondo"],
+    "hi": ["पारले-जी खोजें", "पारले-जी ढूंढो"]
+  },
+  {
+    "id": "cmd_prod_check_stock",
+    "action_type": "product_management",
+    "en": ["Check product stock", "View item quantity"],
+    "hi-IN": ["Kisi samaan ka stock dekho", "Item quantity check karo"],
+    "hi": ["किसी सामान का स्टॉक देखें", "आइटम की मात्रा जांचें"]
+  },
+  {
+    "id": "cmd_bill_generate",
+    "action_type": "billing",
+    "en": ["Generate a new bill", "Create bill"],
+    "hi-IN": ["Naya bill banao", "Bill taiyar karo"],
+    "hi": ["नया बिल बनाएं", "बिल तैयार करें"]
+  },
+  {
+    "id": "cmd_bill_add_item_qty",
+    "action_type": "billing",
+    "en": ["Add 2 Parle-G to cart", "Put two Parle-G in bill"],
+    "hi-IN": ["Do Parle-G cart mein daalo", "Bill mein 2 Parle-G rakho"],
+    "hi": ["दो पारले-जी कार्ट में डालें", "बिल में दो पारले-जी जोड़ें"]
+  },
+  {
+    "id": "cmd_bill_add_item",
+    "action_type": "billing",
+    "en": ["Add Coca-Cola to the bill", "Include Coca-Cola"],
+    "hi-IN": ["Coca-Cola bill mein add karo", "Bill mein Coca-Cola daalo"],
+    "hi": ["कोका-कोला बिल में जोड़ें", "बिल में कोका-कोला शामिल करें"]
+  },
+  {
+    "id": "cmd_bill_total",
+    "action_type": "billing",
+    "en": ["What is the total amount?", "Show grand total", "Calculate total"],
+    "hi-IN": ["Total kitna hua?", "Grand total dikhao"],
+    "hi": ["कुल कितना हुआ?", "कुल योग दिखाओ"]
+  },
+  {
+    "id": "cmd_ledger_add_entry",
+    "action_type": "ledger_management",
+    "en": ["Add new ledger entry", "New udhaar entry"],
+    "hi-IN": ["Nayi udhaar entry karo", "Khate mein nayi entry daalo"],
+    "hi": ["नई उधार प्रविष्टि जोड़ें", "खाते में नई एंट्री करें"]
+  },
+  {
+    "id": "cmd_udhaar_check_due",
+    "action_type": "ledger_query",
+    "en": ["Check outstanding balance", "Whose credit is pending?", "View pending dues"],
+    "hi-IN": ["Kiska udhaar baaki hai check karo", "Pending udhaar dekho"],
+    "hi": ["किसका उधार बाकी है?", "बकाया उधार देखें"]
+  },
+  {
+    "id": "cmd_market_how_much",
+    "action_type": "query",
+    "en": ["How much is this?", "What's the price?", "Price please"],
+    "hi-IN": ["Yeh kitne ka hai?", "Iska daam kya hai?", "Price batao"],
+    "hi": ["यह कितने का है?", "इसका दाम क्या है?", "मूल्य बताएं"]
+  },
+  {
+    "id": "cmd_market_one_kilo",
+    "action_type": "product_request",
+    "en": ["Give one kilo sugar", "One kg sugar"],
+    "hi-IN": ["Ek kilo cheeni dena", "Ek kilo cheeni chahiye"],
+    "hi": ["एक किलो चीनी देना", "एक किलो चीनी चाहिए"]
+  },
+  {
+    "id": "cmd_market_two_packets",
+    "action_type": "product_request",
+    "en": ["Two packets of biscuits", "Give two biscuit packets"],
+    "hi-IN": ["Do packet biscuit", "Biscuit ke do packet dena"],
+    "hi": ["दो पैकेट बिस्कुट", "बिस्कुट के दो पैकेट देना"]
+  },
+  {
+    "id": "cmd_market_cash_payment",
+    "action_type": "payment",
+    "en": ["Cash payment", "Paying by cash"],
+    "hi-IN": ["Cash payment", "Nagad dunga"],
+    "hi": ["नकद भुगतान", "कैश दूंगा"]
+  },
+  {
+    "id": "cmd_market_online_payment",
+    "action_type": "payment",
+    "en": ["Online payment", "Paying online", "UPI payment"],
+    "hi-IN": ["Online payment", "UPI karunga"],
+    "hi": ["ऑनलाइन भुगतान", "यूपीआई करूँगा"]
+  },
+  {
+    "id": "cmd_market_change_available",
+    "action_type": "query",
+    "en": ["Do you have change?", "Is change available?"],
+    "hi-IN": ["Chutta hai kya?", "Change milega?"],
+    "hi": ["छुट्टा है क्या?", "चेंज मिलेगा?"]
+  },
+  {
+    "id": "cmd_general_yes",
+    "action_type": "confirmation",
+    "en": ["Yes", "Okay", "Alright", "Sure"],
+    "hi-IN": ["Haan", "Theek hai", "Chalo"],
+    "hi": ["हाँ", "ठीक है", "अवश्य"]
+  },
+  {
+    "id": "cmd_general_no",
+    "action_type": "confirmation",
+    "en": ["No", "Nope"],
+    "hi-IN": ["Nahi", "Na"],
+    "hi": ["नहीं", "ना"]
+  },
+  {
+    "id": "cmd_general_ok",
+    "action_type": "confirmation",
+    "en": ["Okay", "Got it", "Understood"],
+    "hi-IN": ["Theek hai", "Samajh gaya"],
+    "hi": ["ठीक है", "समझ गया"]
+  },
+  {
+    "id": "cmd_general_what_is_this",
+    "action_type": "query",
+    "en": ["What is this?", "Explain this"],
+    "hi-IN": ["Yeh kya hai?", "Yeh batao"],
+    "hi": ["यह क्या है?", "यह समझाओ"]
+  },
+  {
+    "id": "cmd_general_show_me_again",
+    "action_type": "request",
+    "en": ["Show me again", "Display again"],
+    "hi-IN": ["Phir se dikhao", "Dobara dikhao"],
+    "hi": ["फिर से दिखाओ", "दोबारा दिखाओ"]
+  }
+]

@@ -1,0 +1,137 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    /* Deep Ocean Dark Theme (Default) */
+    --background: 220 30% 10%; /* #12151F - Very Dark Blue */
+    --foreground: 210 15% 85%; /* #D2D8DE - Light Grey */
+
+    --card: 220 25% 15%; /* #1B202C - Dark Blue/Grey */
+    --card-foreground: 210 15% 85%;
+
+    --popover: 220 25% 12%; /* Slightly darker than card */
+    --popover-foreground: 210 15% 85%;
+
+    --primary: 180 70% 55%; /* #37D6D6 - Bright Teal */
+    --primary-foreground: 220 30% 10%; /* Very Dark Blue for contrast on Primary */
+
+    --secondary: 220 20% 25%; /* #33394A - Muted Dark Blue/Grey */
+    --secondary-foreground: 210 15% 80%; /* #C8CFD7 - Lighter Grey */
+
+    --muted: 220 20% 20%; /* #262B38 - Darker Muted Blue/Grey */
+    --muted-foreground: 210 15% 65%; /* #9BA3AE - Mid Grey */
+
+    --accent: 30 100% 60%; /* #FF9933 - Vibrant Orange */
+    --accent-foreground: 220 30% 10%; /* Very Dark Blue for contrast on Accent */
+
+    --destructive: 0 70% 55%; /* #ED4B4B - Bright Red */
+    --destructive-foreground: 0 0% 95%; /* #F2F2F2 */
+
+    --border: 220 20% 22%; /* #2B3140 - Slightly lighter than card for subtle borders */
+    --input: 220 25% 18%; /* #222836 - Darker for input fields */
+    --ring: 180 70% 60%; /* Brighter Teal for focus rings */
+
+    --radius: 0.75rem; /* 12px */
+
+    --chart-1: 180 70% 55%; /* Bright Teal */
+    --chart-2: 30 100% 60%; /* Vibrant Orange */
+    --chart-3: 260 70% 65%; /* A contrasting Violet */
+    --chart-4: 50 90% 55%;  /* A contrasting Yellow */
+    --chart-5: 0 70% 60%;   /* A contrasting Red */
+
+    /* Sidebar specific colors - Dark Theme */
+    --sidebar-background: 220 30% 8%; /* #0E111A - Even Darker Blue */
+    --sidebar-foreground: 210 15% 80%;
+    --sidebar-primary: 180 70% 55%;
+    --sidebar-primary-foreground: 220 30% 10%;
+    --sidebar-accent: 220 25% 20%; /* Hover/active BG */
+    --sidebar-accent-foreground: 180 70% 60%; /* Accent color for text on hover */
+    --sidebar-border: 220 25% 12%;
+    --sidebar-ring: 180 70% 60%;
+
+    --gradient-start: 220 30% 10%; 
+    --gradient-end: 220 30% 8%; 
+  }
+
+  .light-theme-vyapar {
+    /* Crisp Sky Light Theme */
+    --background: 210 40% 97%; /* #F4F7FA - Very Light Blue/Grey */
+    --foreground: 220 25% 30%; /* #3D475C - Dark Slate */
+
+    --card: 0 0% 100%; /* #FFFFFF - White */
+    --card-foreground: 220 25% 30%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 30%;
+
+    --primary: 180 70% 45%; /* #1FA6A6 - Slightly Darker Teal for light bg */
+    --primary-foreground: 0 0% 100%; /* White */
+
+    --secondary: 210 30% 90%; /* #DDE3EA - Light Grey-Blue */
+    --secondary-foreground: 220 25% 25%; /* #33394A - Darker Slate */
+
+    --muted: 210 30% 93%; /* #E7ECF0 - Very Light Grey-Blue */
+    --muted-foreground: 220 25% 55%; /* #7C879D - Mid Slate */
+
+    --accent: 30 90% 55%; /* #FF8C26 - Slightly less intense Orange for light bg */
+    --accent-foreground: 0 0% 100%; /* White */
+
+    --destructive: 0 70% 50%; /* #E53E3E - Red */
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 25% 88%; /* #D7DEE7 - Light Grey Border */
+    --input: 210 25% 95%; /* #ECF0F3 - Lighter input for light theme */
+    --ring: 180 70% 50%; /* Teal for focus rings */
+
+    /* Sidebar specific colors - Light Theme */
+    --sidebar-background: 210 50% 98%; /* #F7FAFC - Almost White */
+    --sidebar-foreground: 220 25% 30%;
+    --sidebar-primary: 180 70% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 30% 88%; /* #DAE1E8 - Hover/active BG */
+    --sidebar-accent-foreground: 180 70% 40%; /* Darker primary for text on hover */
+    --sidebar-border: 210 30% 90%;
+    --sidebar-ring: 180 70% 50%;
+
+    --gradient-start: 210 40% 97%; 
+    --gradient-end: 210 40% 94%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .modern-card {
+    @apply bg-card text-card-foreground p-6 rounded-xl shadow-lg transition-all duration-300 hover:shadow-2xl;
+  }
+  
+  .sidebar-menu-button-active-glow {
+    @apply shadow-[0_0_12px_2px_hsl(var(--primary)/0.5)];
+  }
+
+  .button-hover-effect {
+    @apply transition-all duration-200 hover:-translate-y-px hover:shadow-[0_0_10px_2px_hsl(var(--primary)/0.3),0_1px_3px_hsl(var(--primary)/0.15)];
+  }
+  .button-hover-effect-accent {
+    @apply transition-all duration-200 hover:-translate-y-px hover:shadow-[0_0_10px_2px_hsl(var(--accent)/0.4),0_1px_3px_hsl(var(--accent)/0.2)];
+  }
+
+  /* Restore Toast Timeline Animation */
+  .animate-toast-timeline {
+    animation: toast-timeline-shrink linear forwards;
+  }
+}
