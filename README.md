@@ -167,22 +167,20 @@ Vyapar Sahayak uses Next.js for the frontend and Genkit for AI flow development.
 
 ### Product Management
 Add, view, edit, and delete products in your inventory. Each product can have a name, category, price, quantity, and an optional minimum stock threshold. The system will alert you for low-stock items based on these thresholds.
-`[Illustrative GIF: Navigating to products page, adding a new product, editing an existing one, and seeing a low-stock badge]`
+
 
 ### Billing (Multi-Lingual POS)
 The billing interface allows for quick addition of products to a customer's cart. Search for products, adjust quantities, and see the total amount update in real-time. Customer details can be optionally added. The interface is available in English, Hinglish, and Hindi, making it accessible to a wider range of users.
-`[Illustrative GIF: Searching for products, adding to cart, changing quantity, generating a bill, and switching language in the billing interface]`
+
 
 ### Ledger Book (Udhaar Khata)
 Keep track of all credit and debit transactions. Easily add entries for money owed to you (receivable) or money you owe to others (payable). View summarized totals for receivables and payables.
-`[Illustrative GIF: Adding a payable and receivable entry, showing the main totals update]`
 
 ### AI-Powered Features
 Vyapar Sahayak leverages Genkit to integrate AI:
 *   **Voice Dictation:** Speak into forms instead of typing.
 *   **Chat Assistant:** Use natural language or select predefined commands to navigate the app or query information (e.g., "Show me products", "What's [Customer X]'s due?").
 *   **Product Suggestions (Premium):** During billing, the AI can suggest relevant products based on sales history and current cart items.
-    `[Illustrative GIF: User interacting with chatbot to navigate, then using voice to ask about stock, then AI suggesting items during billing]`
 
 ---
 
@@ -192,7 +190,7 @@ The application boasts a modern and clean user interface:
 *   **ShadCN UI Components:** Provides a set of beautifully designed and accessible components that are highly customizable.
 *   **Tailwind CSS:** Enables rapid styling with a utility-first approach, ensuring consistency and maintainability.
 *   **Theming:** Supports both Dark and Light themes, which can be toggled from the settings page. The theme is persisted in local storage.
-    `[Illustrative GIF: Showing the app in light mode, then toggling to dark mode]`
+
 
 ---
 
