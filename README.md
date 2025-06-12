@@ -21,13 +21,14 @@
     *   Categorize items and manage prices.
     *   Track quantity and set minimum stock thresholds for alerts.
     *   Search and filter product list.
-*   **🧾 Bill Generation:**
+*   **🧾 Multi-Lingual Bill Generation:**
     *   Swiftly add products to a cart.
     *   Update quantities or remove items from the cart.
     *   Automatic calculation of subtotals and grand total.
     *   Record customer name and phone number (optional).
     *   Generate and view bill summaries.
     *   AI-powered product suggestions (premium).
+    *   Interface available in **English, Hinglish, and Hindi** for ease of use.
 *   **📓 Ledger Book (Udhaar Khata):**
     *   Manage credits (receivables) and debits (payables).
     *   Track amounts owed by customers or owed to suppliers.
@@ -39,7 +40,7 @@
     *   Search and sort bills by date, amount, customer, or bill number.
 *   **⚙️ Customizable Settings:**
     *   Switch between **Dark** and **Light** themes.
-    *   Multi-language support (**English, Hinglish, Hindi**).
+    *   Multi-language support (**English, Hinglish, Hindi**) for the entire application.
     *   Set a global low stock threshold.
     *   Toggle pop-up notifications.
 *   **🗣️ Voice Commands & Chat Assistant (AI-Powered):**
@@ -168,9 +169,9 @@ Vyapar Sahayak uses Next.js for the frontend and Genkit for AI flow development.
 Add, view, edit, and delete products in your inventory. Each product can have a name, category, price, quantity, and an optional minimum stock threshold. The system will alert you for low-stock items based on these thresholds.
 `[Illustrative GIF: Navigating to products page, adding a new product, editing an existing one, and seeing a low-stock badge]`
 
-### Billing
-The billing interface allows for quick addition of products to a customer's cart. Search for products, adjust quantities, and see the total amount update in real-time. Customer details can be optionally added.
-`[Illustrative GIF: Searching for products, adding to cart, changing quantity, and generating a bill]`
+### Billing (Multi-Lingual POS)
+The billing interface allows for quick addition of products to a customer's cart. Search for products, adjust quantities, and see the total amount update in real-time. Customer details can be optionally added. The interface is available in English, Hinglish, and Hindi, making it accessible to a wider range of users.
+`[Illustrative GIF: Searching for products, adding to cart, changing quantity, generating a bill, and switching language in the billing interface]`
 
 ### Ledger Book (Udhaar Khata)
 Keep track of all credit and debit transactions. Easily add entries for money owed to you (receivable) or money you owe to others (payable). View summarized totals for receivables and payables.
@@ -197,12 +198,25 @@ The application boasts a modern and clean user interface:
 
 ## 🌐 Internationalization
 
-Vyapar Sahayak is designed for a diverse user base, offering support for:
+Vyapar Sahayak is designed for a diverse user base, offering full application support for:
 *   English
 *   Hinglish (Hindi written in Roman script)
 *   Hindi (Devanagari script)
 
-Language can be easily switched from the settings page or the top bar.
+Language can be easily switched from the settings page or the top bar, ensuring all labels, buttons, and messages are displayed in the chosen language.
+
+---
+
+## 🔮 Future Scope / Potential Enhancements
+
+*   **Printable Bills:** Allow users to generate and print physical copies of bills.
+*   **User Authentication:** Implement user accounts for data privacy and multi-user shops.
+*   **Advanced Analytics & Reports:** Provide more detailed sales reports, profit tracking, and inventory analysis.
+*   **Barcode Scanning:** Integrate barcode scanning for faster product addition to cart.
+*   **Offline Mode:** Allow basic billing and product viewing even without an internet connection, syncing data when online.
+*   **Supplier Management:** Track suppliers and purchase orders.
+*   **Cloud Backup & Sync:** More robust cloud synchronization for data safety.
+*   **Mobile App:** Native mobile application for Android/iOS.
 
 ---
 
